@@ -1,14 +1,10 @@
+# 🚀 FASTAPI PROJECT – Backend API Development
 
-# 🚀 FastAPI Item Management API
+## 📌 Project Description
 
-## 📌 About This Project
-This project is a simple FastAPI application that allows users to manage items.
+This is a FastAPI-based backend project that demonstrates how REST APIs are built for managing data using CRUD operations. The project allows users to create, read, update, and delete records through API endpoints.
 
-It is designed for beginners to understand:
-- How APIs work
-- How to build backend using FastAPI
-- How CRUD operations work
-
+---
 👉 This project can be used as a basic backend template for real-world applications.
 
 ---
@@ -60,13 +56,14 @@ pip install -r requirements.txt
 ### Step 4: Run Server
 uvicorn main:app --reload
 
----
+### Step 5: Open in browser
+http://127.0.0.1:8000/docs
+
 
 ## 🌐 API URLs
 - http://127.0.0.1:8000/docs  
 - http://127.0.0.1:8000/redoc  
 
----
 
 ## 📌 API Endpoints
 
